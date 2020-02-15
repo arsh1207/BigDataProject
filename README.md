@@ -1,11 +1,13 @@
 # BigDataProject
 Towards the completion for the course Big Data
 
+# Abstract
 Big Data Analytics, the science of managing huge data repositories and extract useful knowledge from, has emerged as a young and interdisciplinary field in computer science. Storing huge amounts of data in data repositories amounts to nothing if we are not able to retrieve any useful information from them. In this project we have planned to create a recommender system for Amazon product recommendation system according to customers ratings. This project will emphasize the association rule for the products. After proper analysis and preprocessing of the dataset we will implement two algorithms of the recommender system that was discussed in the class. Later, we will analyse the difference between the two approaches and different results that are obtained.
 
 # Introduction:
 2.1 Problem Statement: 
 Using amazon product dataset, we will create a recommender system based on two famous algorithms of content based and collaborative filtering recommendation systems. These algorithms we will create from scratch and will include other variations for the system. This will help us in a better analysis of the results. Also, we will analyse our model against pyspark als model for better analysis.
+
 2.2  Motivation:
 Recommendation systems help users find and select items (e.g., books, movies, restaurants) from the huge number available on the web or in other electronic information sources. Given a large set of items and a description of the user's needs, they present to the user a small set of the items that are well suited to the description. Recent work in recommendation systems includes intelligent aides for filtering and choosing web sites, news, stories, TV listings, and other information. The users of such systems often have diverse, conflicting needs. Differences in personal preferences, social and educational backgrounds, and private or professional interests are pervasive. As a result, we wanted to have personalized  intelligent systems that process, filter, and display available information in a manner that suits each individual using them. The need for personalization has led to the development of systems that adapt themselves by changing their behavior based on the inferred characteristics of the user interacting with them. Moreover, knowing the details of the different algorithms and how it works is another interesting goal that we want to master.
 
@@ -19,11 +21,13 @@ Recommendation systems help users find and select items (e.g., books, movies, re
 # Materials and Methods 
 3.1 Dataset description
 For this project, we are using the Kaggle Dataset for Amazon products ratings [1] which is available for public use. The database contains 1048575 instances with 4 attributes. Using the aforementioned attributes and having no missing data, we will create a recommender system for different users.
+
 Attribute Information:
 UserID: Unique ID for each user
 ProductID: Unique ID for each product
 Rating: A value between 1 - 5
 Timestamp: 1, 2, 3, more
+
 
 3.2 Algorithms:
 3.2.1 Content based Recommender System
