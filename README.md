@@ -20,14 +20,9 @@ Recommendation systems help users find and select items (e.g., books, movies, re
 
 # Materials and Methods 
 3.1 Dataset description
-For this project, we are using the Kaggle Dataset for Amazon products ratings [1] which is available for public use. The database contains 1048575 instances with 4 attributes. Using the aforementioned attributes and having no missing data, we will create a recommender system for different users.
+For this project, we are using the Kaggle Dataset for Anime, which is available for public use. The database contains two csv files: anime.csv with 7 attributesand rating.csv with 3 attributes. Using the aforementioned attributes and having no missing data, we will create a recommender system for different users.
 
-Attribute Information:
-UserID: Unique ID for each user
-ProductID: Unique ID for each product
-Rating: A value between 1 - 5
-Timestamp: 1, 2, 3, more
-
+link to dataset : https://www.kaggle.com/CooperUnion/anime-recommendations-database#rating.csv
 
 3.2 Algorithms:
 3.2.1 Content based Recommender System
